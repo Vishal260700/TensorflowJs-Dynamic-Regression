@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TensorflowJs</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.0"> </script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<table class="table" style="width: 1000px; margin-left: 20%;">
+		<tr>
+			<td>
+				<p class="form-control" style="text-align: center;">X : </p>
+			</td>
+			<td>
+				<input type="number" id="x" class="form-control">
+			</td>
+			<td>
+				<p class="form-control" style="text-align: center;">Y : </p>
+			</td>
+			<td>
+				<input type="number" id="y" class="form-control">
+			</td>
+			<td>
+				<input type="button" id="append" value="submit" class="btn btn-primary">
+			</td>
+		</tr>
+	</table>
+	
+
+	<div style="padding:50px">
+        <canvas id="myChart"></canvas>
+    </div>
+
+</body>
+<script type="text/javascript" src="./app.js"></script>
+
+</html>
